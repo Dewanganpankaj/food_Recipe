@@ -1,5 +1,7 @@
 # FOOD RECIPE SEARCH AND DISPLAY APPLICATION
 
+# HOSTED ON NETLIFY : https://65ec4dce4cd60b0008826e01--lighthearted-entremet-62f509.netlify.app
+
 # OVERVIEW
 This web application allows users to search for food recipes based on ingredients or keywords and displays the results in an organized manner. The application fetches recipe data from the RealDB web API and presents it in a visually appealing card format. Users can hover over the food image to view detailed instructions on how to make the dish.
 
@@ -29,3 +31,4 @@ HTML, CSS, JavaScript, REACT, RealDB Web API
 # Acknowledgments
 This project was inspired by a passion for cooking and a desire to create a simple yet useful recipe search application. <br>
 Special thanks to RealDB for providing the recipe data through their web API.
+
