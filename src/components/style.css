@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+}
+body{
+    background-color:  #f0f0f0;
+}
+.heading img
+{
+    height: 400px;
+    width :450 px;
+}
+.heading h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 49px;
+    font-weight:bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #f0f0f0;
+    padding: 20px 30px;
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.heading h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 49px;
+    font-weight:bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #f0f0f0;
+    padding: 20px 30px;
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;;
+    font-size: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.searchBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-Bar {
+    width: 400px; 
+    height: 40px; 
+    border: none;
+    outline: auto;
+    border-radius: 30px;
+    padding: 0.3rem 1rem; 
+}
+
+.btn {
+    width: 100px; 
+    height: 40px; 
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; 
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.notSearch{
+    font-size: 35px;
+    color:white;
+    font-weight:900;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width:300px;
+    height:400px;
+    margin:1.5rem;
+    background: linear-gradient(to left,rgb(204, 255, 51,0.5),to left,rgb(255, 255, 255,0.9));
+    border-radius: 8px;
+    box-shadow: 0 7px 12px rgb(204, 255, 51,0.5);
+    box-sizing: border-box;
+    overflow: auto;
+    position:relative;
+}
+.card img{
+    width:100%;
+}
+.card .info{
+    color:#333;  
+    text-align: center;
+  }
+ 
+  .card .info h2{
+      margin:0;
+      font-weight: 900;
+      margin-top: 15px;
+  }
+  .card .info p{
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.card:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:0;
+    width:100%;
+    background: linear-gradient(to bottom,rgb(204, 255, 51,0.7),rgb(204, 255, 51,0.9));
+    transition:0.2s All;
+}
+.card:hover:before{
+    height: 100%;  
+   
+}
+.card:hover{
+    background: linear-gradient(to bottom,rgb(204, 255, 51,0.7),rgb(204, 255, 51,0.9));  
+}
+.card .recipe{
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    display: none;
+    transition: 0.3s all;
+}
+.card:hover .recipe{
+    display:block;
+}
