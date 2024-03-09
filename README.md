@@ -3,6 +3,13 @@
 # OVERVIEW
 This web application allows users to search for food recipes based on ingredients or keywords and displays the results in an organized manner. The application fetches recipe data from the RealDB web API and presents it in a visually appealing card format. Users can hover over the food image to view detailed instructions on how to make the dish.
 
+# INSTALLATION
+
+1)Clone the repository: git clone https://github.com/Dewanganpankaj/food-recipe-app.git
+2)Open the project directory in your Terminal.
+3)Run the command npm install, TO install the package dependency.
+4)Run npm start.
+
 # FEATURES
 Search Functionality: Users can enter ingredients or keywords in the search input field to find recipes.
 Visually Appealing Interface: The search results are displayed in a visually appealing card format.
@@ -19,24 +26,7 @@ Press the "Search" button or hit Enter to fetch recipe results.
 You can view a live demo of the application here.
 
 # TECHNOLOGIES USED
-HTML
-CSS
-JavaScript
-REACT
-RealDB Web API
-
-
-# INSTALLATION
-
-1)Clone the repository: git clone https://github.com/Dewanganpankaj/food-recipe-app.git
-2)Open the project directory in your code editor.
-3)Open the index.html file in your web browser to run the application locally.
-
-# Contributing
-Contributions are welcome! Feel free to submit pull requests or open issues for any improvements or feature requests.
-
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
+HTML, CSS, JavaScript, REACT, RealDB Web API
 
 # Acknowledgments
 This project was inspired by a passion for cooking and a desire to create a simple yet useful recipe search application.
